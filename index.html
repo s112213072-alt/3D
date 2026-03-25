@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D 模型展示網頁</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 40px 20px; 
+            text-align: center; 
+            background-color: #f4f4f9; 
+        }
+        h1 { color: #333; }
+        .btn-group { display: flex; flex-direction: column; gap: 15px; margin-top: 20px; }
+        a.btn { 
+            display: inline-block; 
+            padding: 15px 20px; 
+            background-color: #2b3137; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 8px; 
+            font-weight: bold;
+            transition: background 0.3s, transform 0.1s; 
+        }
+        a.btn:hover { background-color: #0366d6; transform: translateY(-2px); }
+        hr { border: 0; height: 1px; background-color: #ccc; margin: 30px 0; }
+    </style>
+</head>
+<body>
+    <h1>Hello MyFriend 👋</h1>
+    <p>歡迎來到我的 3D 模型展示測試區</p>
+    <hr/>
+    
+    <div class="btn-group">
+        <a href="sketchfab.html" class="btn">SketchFab Example</a>
+        <a href="0.babylonViewer Basic.html" class="btn">Babylon Viewer - Basic</a>
+        <a href="1.babylonViewer Select.html" class="btn">Babylon Viewer - Select Model</a>
+        <a href="2.babylonViewer Navbar.html" class="btn">Babylon Viewer - Custom Navbar</a>
+    </div>
+    
+    <hr/>
+    </body>
+</html>
